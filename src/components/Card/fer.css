@@ -1,0 +1,43 @@
+/* .tarjeta{
+    border: 5px solid darkblue;
+  width: auto;
+  margin: 5%;
+  padding: 5%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+} */
+
+.tarjeta{
+
+      display: flex;
+    justify-content: flex-start; 
+    width: 300px;
+    height: 550px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: "Arial";
+    font-size: 14px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    margin: 10%;
+    align-content: center;
+
+
+}
+.cardCss{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+  }

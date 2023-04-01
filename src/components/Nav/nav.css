@@ -1,0 +1,40 @@
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,91,42,1) 33%, rgba(0,255,106,1) 65%, rgba(7,95,42,1) 100%, rgba(9,121,44,1) 100%);
+  padding: 1rem;
+  height: 40px;
+}
+
+.navAbout {
+    position: relative;
+    left: 150px;
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 1rem;
+    margin-left: auto;
+  }
+  
+  .navHome{
+    position: relative;
+    right: 150px;
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: 1rem;
+  }
+  .navFavorito{
+    position: relative;
+    right: 150px;
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: 1rem;
+  }
